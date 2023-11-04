@@ -1,0 +1,34 @@
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h4,h5,h6{font-size:inherit;font-weight:inherit;}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;400;500&display=swap');
+@font-face{
+  font-family: PP-Pangram-Sans-Rounded;
+  font-weight: 400;
+  src: url("localhost:8888/font/PPPangramSansRounded-Medium-88ae5566.woff2");
+}
+@font-face{
+  font-family: PP-Pangram-Sans-Rounded;
+  font-weight: 600;
+  src: url("C:/Users/Khamzat/Desktop/StandBorz/font/PPPangramSansRounded-Semibold-18316fde.woff2");
+
+
+
+}
+body{
+  background: linear-gradient(100deg, #101117 24.48%, rgba(16, 17, 23, 0.78) 36.04%, rgba(16, 17, 23, 0.00) 82.23%), #101117;
+}

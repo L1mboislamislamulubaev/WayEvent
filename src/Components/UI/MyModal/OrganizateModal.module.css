@@ -1,0 +1,25 @@
+.myModal{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none ;
+    background: rgba(0,0,0,0.5);
+  
+}
+.myModalContent{
+    
+    background: linear-gradient(to bottom, #FFFFFF, #F0F0F0);
+
+
+    border-radius: 20px;
+    width: 457px;
+    height: 600px;  
+}
+.myModal.active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99990;
+}

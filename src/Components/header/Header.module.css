@@ -1,0 +1,69 @@
+.header{
+    width: 100%;
+    height: 100px;
+    flex-shrink: 0;
+    background: rgba(0, 26, 52, 0.10);
+    backdrop-filter: blur(4px);
+
+    
+}
+.header_container{
+    display: flex;
+    justify-content:space-between;
+    max-width: 1300px;
+  
+    position: relative;
+    top: 35px;
+    text-align: center;
+    align-items: center;
+
+
+}
+.login{
+    background: #ffffff;
+    width: 70px;
+    height: 35px;
+    padding: 8px 0 0 0;
+    margin: 0 -40px 0 0px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.logo{
+    margin: 0 0 0 200px;
+    color: #ffffff;
+    
+}
+.header_description{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 0 0 220px;
+    color: #ffffff;
+   
+    
+}
+
+.header_description div {
+    padding: 0 0 0 50px;
+    
+}
+.header_search{
+    border-radius: 16px;
+    width: 200px;
+    height: 27px;
+    padding: 0 0 0 35px;
+    position: relative;
+    
+   
+    
+}
+.header_loop{
+   position: absolute;
+   margin: 0 0 0 1008px;
+   z-index: 3;
+   opacity: 0.55;
+   
+    
+   
+    
+}
