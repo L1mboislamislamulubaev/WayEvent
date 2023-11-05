@@ -106,3 +106,38 @@
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     color: #FFF;
 }
+
+.rating{
+    align-items: start;
+    text-align: left;
+    color: #FFF;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    
+}
+
+.rating_text{
+    /* Оценка полезности */
+
+width: 140px;
+height: 16px;
+
+/* OVERLINE / 12 Regular */
+font-family: 'GT Eesti Pro Text';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 16px;
+/* identical to box height, or 133% */
+letter-spacing: 0.4px;
+text-transform: uppercase;
+
+/* Text / White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
