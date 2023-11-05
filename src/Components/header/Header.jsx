@@ -11,8 +11,7 @@ const Header = ({ setModal }) => {
     <div className={`${cl.header}`}>
       <div className={`${cl.header_container}`}>
         <div className={`${cl.logo}`}>
-        <img width='20px' src="logo.svg"/>
-
+        <img className={`${cl.header_loop1}`} src='./logo.png' width="80px" alt="Loop Icon" />
         </div>
         <div className={`${cl.header_description}`}>
           <div>EVENT</div>
@@ -22,9 +21,9 @@ const Header = ({ setModal }) => {
         </div>
         <img className={`${cl.header_loop}`} src='./loop.svg' width="14px" alt="Loop Icon" />
         <input className={`${cl.header_search}`} type='search' placeholder='Найти мероприятие' />
-        <div  onClick={()=>setModal(true)} className={`${cl.login}`}>Войти</div>
+        
       </div>
-   
+      <div  onClick={()=>setModal(true)} className={`${cl.login}`}>Войти</div>
       
       
       

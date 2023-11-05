@@ -21,14 +21,7 @@ h4,h5,h6{font-size:inherit;font-weight:inherit;}
   font-weight: 400;
   src: url("localhost:8888/font/PPPangramSansRounded-Medium-88ae5566.woff2");
 }
-@font-face{
-  font-family: PP-Pangram-Sans-Rounded;
-  font-weight: 600;
-  src: url("C:/Users/Khamzat/Desktop/StandBorz/font/PPPangramSansRounded-Semibold-18316fde.woff2");
 
-
-
-}
 body{
   background: linear-gradient(100deg, #101117 24.48%, rgba(16, 17, 23, 0.78) 36.04%, rgba(16, 17, 23, 0.00) 82.23%), #101117;
 }

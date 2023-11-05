@@ -11,7 +11,11 @@
     max-width: 50%;
     position: relative;
     top: 100px;
-    margin-left: 50px;
+    margin-left: 0px;
+}
+.container{
+    margin: 0 auto;
+    margin-left: 240px;
 }
 .event{
     text-align: left;
@@ -44,7 +48,7 @@
 
 }
 .container_right{
-    margin: -300px 0 0 800px;
+    margin: -300px 0 0 850px;
     position: relative;
 }
 .background_title{
@@ -93,4 +97,12 @@
     background: rgba(255, 255, 255, 0.10);
     backdrop-filter: blur(8px);
     margin: 20px 0 0 230px;
+}
+
+.titleUp{
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.6 px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #FFF;
 }
