@@ -100,11 +100,15 @@
 }
 
 .titleUp{
-    font-size: 24px;
+    font-size: 30px;
     line-height: 28px;
     letter-spacing: 0.6 px;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     color: #FFF;
+    
+    text-align: left;
+    margin-bottom: 20px;
+    text-height: 40px;
 }
 
 .rating{
@@ -112,11 +116,21 @@
     text-align: left;
     color: #FFF;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    
+}
+.rating img {
+    margin-bottom: 20px;
+
+}
+.navigation{
+    display: flex;
+}
+.map{
+    margin-right: 10px;
 }
 
 .rating_text{
     /* Оценка полезности */
+    margin-bottom: 15px;
 
 width: 140px;
 height: 16px;
@@ -125,7 +139,7 @@ height: 16px;
 font-family: 'GT Eesti Pro Text';
 font-style: normal;
 font-weight: 400;
-font-size: 20px;
+font-size: 12px;
 line-height: 16px;
 /* identical to box height, or 133% */
 letter-spacing: 0.4px;
@@ -139,5 +153,111 @@ color: #FFFFFF;
 flex: none;
 order: 0;
 flex-grow: 0;
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+white-space: nowrap;
 
+}
+
+.textButt {
+    /* Title */
+
+margin: 0 auto;
+width: 212px;
+height: 80px;
+
+font-family: 'GT Eesti Pro Display';
+font-style: normal;
+font-weight: 500;
+line-height: 80px;
+/* identical to box height, or 80% */
+text-align: right;
+letter-spacing: 0.8px;
+
+/* Text / White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+font-size: 90px;
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+align-items: start;
+text-align: left;
+
+font-weight: bold;
+
+margin-top: 100px;
+margin-left: 30px;
+}
+
+.time{
+    
+margin: 0 auto;
+width: 212px;
+height: 80px;
+
+font-family: 'GT Eesti Pro Display';
+font-style: normal;
+font-weight: 500;
+line-height: 80px;
+/* identical to box height, or 80% */
+text-align: right;
+letter-spacing: 0.8px;
+
+/* Text / White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+font-size: 60px;
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+align-items: start;
+text-align: left;
+text-wrap: nowrap;
+font-weight: bold;
+
+}
+
+.rev_v{
+       
+    margin: 0 auto;
+    width: 212px;
+    height: 80px;
+
+    font-family: 'GT Eesti Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 80px;
+    /* identical to box height, or 80% */
+    text-align: right;
+    letter-spacing: 0.8px;
+
+    /* Text / White */
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    font-size: 60px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    align-items: start;
+    text-align: left;
+    text-wrap: nowrap;
+    font-weight: bold;
+
+    margin-right: 30px;
+    position: relative;
+    left: 100px;
+    top: 10px;
+    
 }
